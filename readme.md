@@ -11,19 +11,19 @@ This Flask app utilizes an ASR model and provides two routes: `/` and `/speech`.
 2. ASR Setup:
    - Procedure to setup environment for ASR
 
-   Step 1:conda create -n <name> python=3.7
-   Step 2:conda activate <name>
-   Step 3: git clone https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation.git -b ieee
-   Step 4:cd vakyansh-wav2vec2-experimentation
-   Step 5:bash setup_new_env.sh
+   - Step 1:conda create -n <name> python=3.7
+   - Step 2:conda activate <name>
+   - Step 3: git clone https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation.git -b ieee
+   - Step 4:cd vakyansh-wav2vec2-experimentation
+   - Step 5:bash setup_new_env.sh
 
    If some subprocess error comes run following commands
-   Step 6: cd /opt/wav2vec/kenlm/
-   Step 7: export KENLM_ROOT=$PWD
-   Step 8: cd ../flashlight/bindings/python/
-   Step 9: export USE_CUDA=0
-   Step 10:export USE_MKL=0
-   Step 11:python setup.py install
+   - Step 6: cd /opt/wav2vec/kenlm/
+   - Step 7: export KENLM_ROOT=$PWD
+   - Step 8: cd ../flashlight/bindings/python/
+   - Step 9: export USE_CUDA=0
+   - Step 10:export USE_MKL=0
+   - Step 11:python setup.py install
 Download below files:
 https://drive.google.com/drive/u/1/folders/1modJVPd4KOcyM-KmP6csGw5y4Mx9iPx6
 
