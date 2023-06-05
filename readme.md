@@ -63,6 +63,6 @@ This Flask app utilizes an ASR model and provides two routes: `/` and `/speech`.
 - `templates/` # Folder containing HTML templates
 
 
-##Contact
-20bcs112@iiitdwd.ac.in
-20bcs048@iiitdwd.ac.in
+## Contact
+- 20bcs112@iiitdwd.ac.in
+- 20bcs048@iiitdwd.ac.in
