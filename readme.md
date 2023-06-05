@@ -7,27 +7,36 @@ This Flask app utilizes an ASR model and provides two routes: `/` and `/speech`.
 1. Install Anaconda:
    - Follow the official [Anaconda installation guide](https://docs.anaconda.com/anaconda/install/) to install Anaconda on your system.
 
-2. Create a virtual environment (recommended):
-   - Open a terminal or Anaconda Prompt, navigate to the project directory, and run the following command to create a new virtual environment named "flask_env":
-     ```
-     conda create -n flask_env python=3.9
-     ```
 
-3. Activate the virtual environment:
-   - Run the following command to activate the virtual environment:
-     ```
-     conda activate flask_env
-     ```
+2. ASR Setup:
+   - Procedure to setup environment for ASR
 
-4. Get the files
+   Step 1:conda create -n <name> python=3.7
+   Step 2:conda activate <name>
+   Step 3: git clone https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation.git -b ieee
+   Step 4:cd vakyansh-wav2vec2-experimentation
+   Step 5:bash setup_new_env.sh
+
+   If some subprocess error comes run following commands
+   Step 6: cd /opt/wav2vec/kenlm/
+   Step 7: export KENLM_ROOT=$PWD
+   Step 8: cd ../flashlight/bindings/python/
+   Step 9: export USE_CUDA=0
+   Step 10:export USE_MKL=0
+   Step 11:python setup.py install
+Download below files:
+https://drive.google.com/drive/u/1/folders/1modJVPd4KOcyM-KmP6csGw5y4Mx9iPx6
+
+
+3. Get the files
     - You can download the files from here 
       ``` 
       https://drive.google.com/drive/folders/1JOwPCh2rLE-ygWb1QygKsNxpYUvLuyun?usp=sharing 
       ```
 
-5. Navigate to the downloaded folder
+4. Navigate to the downloaded folder
 
-6. Install dependencies:
+5. Install dependencies:
    - Run the following command to install the required dependencies from the `requirements.txt` file:
      ```
      pip install -r requirements.txt
