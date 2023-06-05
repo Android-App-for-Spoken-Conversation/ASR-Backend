@@ -61,3 +61,8 @@ This Flask app utilizes an ASR model and provides two routes: `/` and `/speech`.
 - `final_model.pt`: ASR model file
 - `static/`: Folder containing static assets which let you run app on web(CSS, JavaScript, images, etc.)
 - `templates/` # Folder containing HTML templates
+
+
+##Contact
+20bcs112@iiitdwd.ac.in
+20bcs048@iiitdwd.ac.in
